@@ -12,10 +12,13 @@ parts:
   - file: 04_Escapar_optimos/escapar_optimos
 - caption: "Métodos de trayectoria"
   chapters:
+  - file: 05_Tabu/busqueda_tabu
+  - file: 06_VNS/busqueda_vecindad_variable
   - file: 07_Recocido_simulado/recocido_simulado
   - file: 08_LNS/busqueda_vecindarios_grandes
 - caption: "Métodos poblacionales"
   chapters:
+  - file: 09_Geneticos/algoritmos_geneticos
   - file: 10_Colonia_hormigas/colonia_hormigas
   - file: 11_PSO/enjambre_particulas
   - file: 12_Scatter_search/busqueda_dispersa
