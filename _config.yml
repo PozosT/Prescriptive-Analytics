@@ -1,0 +1,54 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Prescriptive Analytics
+author: Alejandra Tabares Pozos
+description: >
+  Notas de clase del curso Prescriptive Analytics (antes Metaheurísticas).
+  Departamento de Ingeniería Industrial, Universidad de los Andes.
+
+language: es
+only_build_toc_files: true
+
+# Los cuadernos se guardan con sus salidas; el libro no los vuelve a ejecutar.
+execute:
+  execute_notebooks: "off"
+
+repository:
+  url: https://github.com/PozosT/Prescriptive-Analytics
+  branch: main
+
+html:
+  use_issues_button: false
+  use_repository_button: true
+  use_edit_page_button: false
+  home_page_in_navbar: true
+  extra_css:
+    - _static/custom.css
+  extra_footer: |
+    <p>
+      Departamento de Ingeniería Industrial &mdash; Universidad de los Andes<br/>
+      Contenido bajo licencia <a href="https://opensource.org/licenses/MIT">MIT</a>.
+    </p>
+
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_image
+  myst_url_schemes: [mailto, http, https]
+
+sphinx:
+  config:
+    html_theme_options:
+      repository_url: https://github.com/PozosT/Prescriptive-Analytics
+      use_repository_button: true
+      use_download_button: true
+      show_toc_level: 2
+      navigation_with_keys: true
+    language: es

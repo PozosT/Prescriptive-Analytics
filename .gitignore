@@ -1,0 +1,18 @@
+# Jupyter Book build
+_build/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.env
+.venv/
+env/
+
+# macOS
+.DS_Store
+*.swp
+
+# Notas de revisión (no se publican)
+NOTAS_REVISION.md

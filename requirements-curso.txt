@@ -1,0 +1,15 @@
+# Bibliotecas que usan los cuadernos del curso
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+scikit-learn
+networkx
+optuna
+deap
+statsmodels
+scikit-posthocs
+pingouin
+gymnasium
+tqdm
